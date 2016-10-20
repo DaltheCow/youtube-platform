@@ -1,0 +1,219 @@
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+li {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+button::-moz-focus-inner {
+    border:0;
+    padding:0;
+}
+
+@-moz-document url-prefix() {
+  button {
+    padding:0;
+    margin:0;
+  }
+}
+
+#resizable {
+    width: 565px;
+    height: 200px;
+    overflow:hidden;
+    /*padding-bottom: 20px;
+    padding-right: 20px; */
+}
+
+#YTtranscript {
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow:auto;
+} 
+
+#replayinputs {
+    width:565px;
+    color:#222222;
+    font-family:Arial;
+    background-color:red;
+    border:1px #222222 solid;
+    padding-top:2px;
+}
+
+#loopingcb {
+    padding-left: 5px;
+}
+
+#length {
+    float:right;
+    width:250px;
+}
+
+#length:hover {
+    cursor:pointer;
+}
+
+#player {
+    height: 390px;
+}
+
+#length {
+    position: relative;
+    top: 4px;
+    margin-right: 3px;
+}
+
+.slideCtrl {
+    float:right;
+}
+
+#playershortcuts {
+    padding-left: 5px;
+    position: relative;
+    width: 120px;
+}
+
+#playershortcuts:hover > ul {
+    display:initial;
+
+}
+
+#playershortcuts:hover > div {
+    color:white;
+}
+
+#playershortcuts ul {
+    width: 230px;
+    background-color: lightgray;
+    z-index:1;
+}
+
+#shortcutskey li :hover {
+    background-color: white;
+}
+
+#shortcutskey {
+    position: absolute;
+    display: none;
+}
+.zindex0 {
+    position: relative;
+    z-index: 0;
+}
+
+#consoleY {
+    width:95px;
+}
+
+.block {
+    display:inline-block;
+}
+
+#sidebar {
+    height:100%;
+    background-color:transparent;
+    position:fixed;
+    right:0;
+    top:0;
+}
+
+#sidebar-ctrl {
+    float:right;
+    height:100%;
+    width:15px;
+    background-color:transparent;
+}
+
+#sidebar-ctrl:hover {
+    background-color:pink !important;
+}
+
+#sidebar-ctrl:hover #arrow {
+    font-size: 15px;
+}
+
+#arrow-ctnr {
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#arrow {
+    align-self: center;
+    font-size: 8px;
+}
+
+#url-input {
+    margin-top: 8px;
+    width: 200px;
+}
+
+#plusbtn {
+    margin-right:3px
+}
+
+.input-submit {
+    display:none;
+}
+
+#YTsearch {
+    height: 100%;
+    width:322px;
+    background-color:#E7E7E7;
+    float:right;
+    display:none;
+}
+
+.searchbar {
+    max-width:316px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:2px;
+
+    border-radius:5px;
+}
+
+#results-ctnr {
+    height: 100%;
+}
+
+#results {
+    height:92.5%;
+    overflow:auto;
+}
+
+.resultDiv {
+    border:2px solid darkred;
+}
+
+.resultDiv:hover {
+    border-color: limegreen;
+}
+
+.searchterm {
+    text-align:center;
+    width:100%;
+}
+
+#search-glyph {
+    background-color:pink;
+    border-top:2px solid darkred;
+    border-left:2px solid darkred;
+    border-bottom:2px solid darkred;
+}
+
+#search-input {
+    background-color:pink;
+    border-top:2px solid darkred;
+    border-right:2px solid darkred;
+    border-bottom:2px solid darkred;
+    border-left:1px solid lightcoral;
+}
